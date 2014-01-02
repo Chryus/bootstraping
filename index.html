@@ -1,26 +1,67 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>Bootstrap example challenge</title>
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="bootstrap/js/bootsrap.js"></script>
+   <!--  link to custom css here -->
+    <style>
+      body { padding-top: 60px;}
+    </style>
 	</head>
 	<body>
-		<nav>
-			<a href="#">Project Name</a>
-			<ul>
-				<li>Home</li>
-				<li>About</li>
-				<li>Contact</li>
-				<li>Dropdown
-					<select>
-						  <option value="volvo">Action</option>
-						  <option value="saab">Another Action</option>
-						  <option value="mercedes">Something else here</option>
-						  <option value="audi">NAV HEADER</option>
-						  <option value="audi">Separated link</option>
-						  <option value="audi">One more separated link</option>
-					</select>
-				</li>
-			</ul>
+		<nav class="navbar">
+			<div class="navbar-inner">
+				<a class="brand" href="#">Project Name</a>
+				<ul>
+					<li>Home</li>
+					<li>About</li>
+					<li>Contact</li>
+					<li>Dropdown
+						<select>
+							  <option value="volvo">Action</option>
+							  <option value="saab">Another Action</option>
+							  <option value="mercedes">Something else here</option>
+							  <option value="audi">NAV HEADER</option>
+							  <option value="audi">Separated link</option>
+							  <option value="audi">One more separated link</option>
+						</select>
+					</li>
+				</ul>
+			</div>
 		</nav>
+		<div id="myCarousel">
+		<div class="carousel">
+				<ul>
+					<li>
+							<img src="http://placekitten.com/700/400"/>
+							<div class="caption">
+								<h3>look at this kitten</h3>
+								<p>Preserve and cherish that pale blue dot, corpus callosum quasar Vangelis decipherment.</p>
+							</div>
+					</li>
+					<li>
+						<img src="http://placekitten.com/700/400"/>
+							<div class="caption">
+								<h3>look at this kitten</h3>
+								<p>Preserve and cherish that pale blue dot, corpus callosum quasar Vangelis decipherment.</p>
+							</div>
+					</li>
+					<li>
+						<img src="http://placekitten.com/700/400"/>
+							<div class="caption">
+								<h3>look at this kitten</h3>
+								<p>Preserve and cherish that pale blue dot, corpus callosum quasar Vangelis decipherment.</p>
+							</div>
+					</li>
+				</ul>
+					<div>
+						<a href="#">Back</a>
+						<a href="#">Next</a>
+					</div>
+		</div>
 		<section>
 			<h1>Example header.</h1>
 			<p>Inconspicuous motes of rock and gas Jean-François Champollion with pretty stories for which there's little good evidence, dream of the mind's eye qui dolorem ipsum quia dolor sit amet billions upon billions another world?</p>
@@ -40,24 +81,31 @@
 			</div>
 		</div>
 		<footer>
+			<hr></hr>
 			<div>
 				<h1>First featurette headling. It'll blow your mind.</h1>
+				<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
 				<figure>
-					<img src="/assets/browser-icon-chrome.jpg"/>
+					<img src="assets/browser-icon-chrome.jpg"/>
 				</figure>
 			</div>
+			<hr></hr>
 			<div>
-				<h1>Oh yeah, it's that good. See for yourself.</h1>
 				<figure>
-					<img src="/assets/browser-icon-firefox.jpg"/>
+					<img src="assets/browser-icon-firefox.jpg"/>
 				</figure>
+				<h1>Oh yeah, it's that good. See for yourself.</h1>
+				<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
 			</div>
+			<hr></hr>
 			<div>
 				<h1>And lastly, this one. Checkmate.</h1>
+				<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
 				<figure>
-					<img src="/assets/browser-icon-safari.jpg"/>
+					<img src="assets/browser-icon-safari.jpg"/>
 				</figure>
 			</div>
+			<hr></hr>
 		</footer>	
 	</body>
 
